@@ -1,0 +1,147 @@
+#hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  .hero-content {
+    z-index: 1;
+
+    .bottom {
+      position: absolute;
+      bottom: 40px;
+      left: calc(50vw - 30px) /* Half screen - buttons size */;
+      animation: moveUpDown 2s ease-in-out 2.5s;
+      animation-iteration-count: 2; 
+    }
+    
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      color: #e50914;
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out 0.5s forwards;
+    }
+    
+    p {
+      font-size: 1.5rem;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out 1s forwards;
+    }
+    
+    .buttons {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60px;
+      opacity: 0;
+      animation: fadeIn 2.5s ease-in-out 1s forwards;
+    }
+    
+    a, .button {
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      appearance: none;
+      border: 0px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      -webkit-box-pack: center;
+      opacity: 1;
+      padding: 0.8rem;
+      position: relative;
+      user-select: none;
+      will-change: background-color, color;
+      word-break: break-word;
+      white-space: nowrap;
+      font-weight: 600;
+      font-size: 1.2em;
+      gap: 5px;
+    }
+    
+    
+    a.primary {
+      background-color: rgb(255, 255, 255, 0.75);
+      color: black;
+    }
+    
+    a.secondary {
+      background-color: rgba(109, 109, 110, 0.7);
+      color: white;
+    }
+    
+    .godown {
+      background: black;
+      color: white;
+      border-radius: 30px;
+      border: 1px solid rgb(192, 192, 192);
+      opacity: 0;
+      animation: fadeIn 2.5s ease-in-out 2.5s forwards;
+    }
+  }
+  
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75); /* Black overlay with 60% opacity */
+  z-index: 1; /* Ensure it covers the background but stays behind text */
+}
+
+.mobile {
+  #hero {
+    .hero-content {
+      h1 {
+        font-size: 3em;
+      }
+    }
+  }
+}
+
+.mobile.portrait {
+  #hero {
+    .hero-content {
+      h1 {
+        font-size: 2em;
+      }
+
+      .bottom {
+        .godown {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes moveUpDown {
+  0% {
+      bottom: 40px;
+  }
+  50% {
+    bottom: 5px;
+  }
+  100% {
+      bottom: 40px;
+  }
+}

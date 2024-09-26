@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "output/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx rollup -c --watch --watch.onEnd='node output/index.js'",
+    "build": "npx rollup -c && rm -rf dist && mkdir dist && cp -rf output public data dist/ && zip -r dist.zip dist && rm -rf dist/* && mv dist.zip dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/merge": "^9.0.7",
+    "@graphql-tools/schema": "^10.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "graphql": "^16.9.0",
+    "graphql-http": "^1.22.1",
+    "ruru": "^2.0.0-beta.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@rollup/plugin-graphql": "^2.0.5",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "eslint": "^9.11.1",
+    "globals": "^15.9.0",
+    "rollup": "^4.22.4",
+    "tslib": "^2.7.0",
+    "typescript-eslint": "^8.7.0"
+  }
+}

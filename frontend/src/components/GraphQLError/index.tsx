@@ -1,0 +1,1 @@
+export { GraphQLError } from './GraphQLError';

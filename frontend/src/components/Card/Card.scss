@@ -1,0 +1,38 @@
+.card-container {
+  position: 'relative';
+
+  .card {
+    position: relative;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s;
+
+    img.preview {
+      opacity: 0;
+      pointer-events: none;
+      object-fit: cover;
+      user-select: none;
+      width: 100%;
+      border-radius: 5px;
+      height: 170px;
+      transition: opacity 0.8s ease-in;
+    }
+    
+    .title {
+      opacity: 0;
+      position: absolute;
+      bottom: 0;
+      background: #0000009c;
+      padding: 10px;
+      width: 100%;
+      color: white;
+      transition: opacity 0.3s ease-in 0.5s;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}

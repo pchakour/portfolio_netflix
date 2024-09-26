@@ -1,0 +1,51 @@
+{
+  "experience": [
+    {
+      "title": "Freelance developer",
+      "image": "images/experience/freelance.png",
+      "description": "I founded my own company, Neliotek, to work as a freelance developer. My primary client is my former team at Thales, and I also collaborate with other teams that seek my expertise in Kibana plugin development or my knowledge in other domains.",
+      "company": "Neliotek",
+      "tags": ["full-time"],
+      "technicalSkills": ["NodeJs", "Angular v1", "React", "Kibana", "Logstash", "Elasticsearch", "Docker", "Ansible", "Jenkins", "Linux", "Gitlab", "Sonarqube"]
+    },
+    {
+      "title": "Tech leader",
+      "image": "images/experience/tech_leader.webp",
+      "description": "In 2018, I initiated a new project with my manager aimed at helping software engineers identify bugs by parsing logs.",
+      "company": "Thales",
+      "tags": ["full-time"],
+      "technicalSkills": ["NodeJs", "Angular v1", "React", "Kibana", "Logstash", "Elasticsearch", "Docker", "Ansible", "Jenkins", "Linux", "Gitlab", "Sonarqube"]
+    },
+    {
+      "title": "Test manager",
+      "image": "images/experience/test_manager.webp",
+      "description": "I was responsible for the testing platform used by the development team in my previous role. The challenge involved finalizing ongoing work related to testing through Docker and establishing a platform to test the software at scale.",
+      "company": "Thales",
+      "tags": ["full-time"],
+      "technicalSkills": ["Docker", "Linux", "Git", "Clearcase", "C/C++", "RobotFramework", "Python", "CMake", "Klockwork", "Jira", "Jenkins"]
+    },
+    {
+      "title": "Software engineer",
+      "image": "images/experience/developer_thales.png",
+      "description": "I joined the team from my internship as a C/C++ developer. My role involved developing new features and troubleshooting issues. I also suggested enhancements, such as transitioning to CMake for the compilation process, which reduced compilation time from over an hour to just fifteen minutes.",
+      "company": "Thales",
+      "technicalSkills": ["Docker", "Linux", "Git", "Clearcase", "C/C++", "RobotFramework", "Python", "CMake", "Klockwork", "Jira", "Jenkins"]
+    },
+    {
+      "title": "Internship as software engineer",
+      "image": "images/experience/internship_thales.png",
+      "description": "This was my final internship, the topic was to integrate a proprietary routing protocol into a Quagga router and implement redistribution to civilian protocols.",
+      "company": "Thales",
+      "tags": ["internship"],
+      "technicalSkills": ["Linux", "Clearcase", "C/C++", "Quagga"]
+    },
+    {
+      "title": "Web developer",
+      "image": "images/experience/web_developer.png",
+      "description": "I completed my first internship as a web developer at the Montpellier laboratory, working on a web application for researchers. I had the opportunity to continue in a student position, where I developed new features for the software. This was an excellent way to earn money to fund my studies while gaining valuable experience.",
+      "company": "University of Montpeller",
+      "tags": ["student job"],
+      "technicalSkills": ["PHP", "Javascript", "HTML", "CSS", "ZendFramework", "jQuery", "SVN", "Linux"]
+    }
+  ]
+}

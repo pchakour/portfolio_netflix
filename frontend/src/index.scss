@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --main-background-color: #080808;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Netflix Sans;
+  src: url(./fonts/NetflixSans_W_Rg.woff2);
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.8em;
+  margin-bottom: 40px;
+  color: rgb(229, 229, 229);
+}

@@ -1,0 +1,49 @@
+.preview-card {
+  z-index: 2;
+  position: absolute;
+  background-color: #141414;
+  margin: -100px -100px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 4px 11px 0px rgba(0,0,0,0.63); 
+  box-shadow: 5px 4px 11px 0px rgba(0,0,0,0.63);
+  min-height: 0px;
+  width: 0px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+
+  img, video {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 300px;
+  }
+  
+  .preview-card-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .preview-card-buttons > div {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .preview-card-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .preview-card-content {
+    padding: 20px 20px 10px 20px;
+  }
+  
+  .preview-card-title {
+    background: rgba(0, 0, 0, 0.377);
+    margin: -25px -20px 20px;
+    padding: 20px;
+    color: #949494;
+  }
+}

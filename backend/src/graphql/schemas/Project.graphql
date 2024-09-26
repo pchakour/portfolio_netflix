@@ -1,0 +1,10 @@
+type Project {
+  title: String
+  image: String
+  video: [String]
+  description: String
+  tags: [String]
+  gitRepository: String,
+  company: String,
+  technicalSkills: [String]
+}

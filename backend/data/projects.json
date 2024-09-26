@@ -1,0 +1,69 @@
+{
+  "projects": [
+    {
+      "title": "Dataqube Parser",
+      "image": "images/projects/dataqube_parser.png",
+      "video": ["videos/dataqube_parser.mp4", "videos/dataqube_parser.webm"],
+      "description": "Dataqube Parser is a data processing tool built on Fluentd, designed to ensure the quality of your data. It allows you to define rules in YAML format for data extraction, transformation, and validation (assertions). The parser is also extensible through Ruby plugins, enabling additional custom functionality. A web application, inspired by SonarQube, is currently in development to offer a more interactive interface for managing and monitoring data quality.",
+      "tags": ["public"],
+      "gitRepository": "https://github.com/pchakour/dataqube",
+      "company": "Neliotek",
+      "technicalSkills": ["Ruby", "Fluent"]
+    },
+    {
+      "title": "Dataqube App",
+      "image": "images/projects/dataqube_app.png",
+      "video": ["videos/dataqube_app.mp4", "videos/dataqube_app.webm"],
+      "description": "Dataqube App is a web application currently in development, designed to define rules and quality gates for your data. It receives parsing information from the Dataqube parser and displays failed assertions, similar to SonarQube, but specifically focused on data quality.",
+      "tags": ["private"],
+      "company": "Neliotek",
+      "technicalSkills": ["NodeJs", "Express", "React", "Typescript", "Opensearch"]
+    },
+    {
+      "title": "Netflix portfolio",
+      "image": "images/projects/portfolio.webp",
+      "video": ["videos/portfolio.mp4", "videos/portfolio.webm"],
+      "description": "This portfolio has been created to apply for a position at Netflix, showcasing my motivation to join the company. Built from scratch with Create React App, I intentionally avoided any UI frameworks. Additionally, I implemented a lightweight backend with GraphQL, a technology I wanted to experiment with, as it seem's to be used at Netflix.",
+      "gitRepository": "https://github.com/pchakour/portfolio_netflix",
+      "tags": ["public"],
+      "company": "Neliotek",
+      "technicalSkills": ["NodeJs", "Express", "GraphQL", "Typescript", "React"]
+    },
+    {
+      "title": "Sequence diagram",
+      "image": "images/projects/sequence_diagram.png",
+      "video": ["videos/sequence_diagram.mp4", "videos/sequence_diagram.webm"],
+      "description": "A Kibana visualization developed for Thales, this tool generates sequence diagrams from injected logs. Both the data and styling are fully configurable, allowing customization. Additionally, you can apply styles based on regular expressions to dynamically adjust the visualization according to specific data patterns.",
+      "tags": ["professional"],
+      "company": "Thales",
+      "technicalSkills": ["NodeJs", "Typescript", "React", "PixiJs", "Kibana", "Elasticsearch", "Logstash"]
+    },
+    {
+      "title": "Timeline",
+      "image": "images/projects/timeline.png",
+      "video": ["videos/timeline.mp4", "videos/timeline.webm"],
+      "description": "A Kibana visualization developed for Thales, this timeline displays events across different categories. It is fully configurable based on data injected into Elasticsearch. The timeline allows users to adjust the dashboard’s time range by selecting specific intervals, which can also move automatically.",
+      "tags": ["professional"],
+      "company": "Thales",
+      "technicalSkills": ["NodeJs", "Typescript", "React", "EchartsJs", "Kibana", "Elasticsearch", "Logstash"]
+    },
+    {
+      "title": "Topology",
+      "image": "images/projects/topology.png",
+      "video": ["videos/topology.mp4", "videos/topology.webm"],
+      "description": "A Kibana visualization developed for Thales, designed to represent network protocol topologies. The visualization's style is customizable through the use of configurable layers.",
+      "tags": ["professional"],
+      "company": "Thales",
+      "technicalSkills": ["NodeJs", "Typescript", "React", "react-force-graph", "Kibana", "Elasticsearch", "Logstash"]
+    },
+    {
+      "title": "Logstash Filter Editor",
+      "image": "images/projects/logstash_editor.png",
+      "video": ["videos/logstash_editor.mp4", "videos/logstash_editor.webm"],
+      "description": "An editor integrated into Kibana that enables users to write Logstash filters. It includes features such as autocompletion, syntax highlighting, a Grok pattern helper, and a testing tool to debug filters.",
+      "company": "Thales",
+      "technicalSkills": ["NodeJs", "Typescript", "React", "Monaco", "Kibana", "Elasticsearch", "Logstash"],
+      "tags": ["professional"]
+    }
+  ]
+}

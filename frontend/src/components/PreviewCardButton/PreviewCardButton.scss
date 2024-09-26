@@ -1,0 +1,16 @@
+.preview-card-button {
+  --size: 40px;
+  --color: #c9c9c9;
+  background-color: black;
+  border: 2px solid var(--color);
+  border-radius: var(--size);
+  width: var(--size);
+  height: var(--size);
+  cursor: pointer;
+  color: var(--color);
+  font-size: x-small;
+}
+
+.preview-card-button.github {
+  border: none;
+}

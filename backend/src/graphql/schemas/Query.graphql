@@ -1,0 +1,5 @@
+type Query {
+  projects: [Project],
+  education: [Education],
+  experience: [Experience]
+}

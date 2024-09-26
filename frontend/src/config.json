@@ -1,0 +1,15 @@
+{
+  "graphqlServer": "http://localhost:4000/",
+  "graphqlEndpoint": "graphql",
+  "firstname": "Phares",
+  "lastname": "CHAKOUR",
+  "loaderMinDelay": 1000,
+  "hero": {
+    "title": "Welcome to my World of Code",
+    "subtitle": "Software Engineer",
+    "arrowDownHref": "#projects",
+    "githubLink": "https://github.com/pchakour",
+    "linkedinLink": "https://linkedin.com/in/phar%C3%A8s-chakour-20100086",
+    "emailLink": "mailto:chakour.phares@gmail.com"
+  }
+}

@@ -1,0 +1,11 @@
+.preview-card-tag {
+  color: #c5c5c5;
+  padding: 2px 8px;
+  width: fit-content;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.preview-card-tag.hasBorder {
+  border: 1px solid #858585;
+}

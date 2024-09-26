@@ -1,0 +1,8 @@
+type Education {
+  title: String
+  image: String
+  description: String
+  tags: [String]
+  school: String,
+  technicalSkills: [String]
+}

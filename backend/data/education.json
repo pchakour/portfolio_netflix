@@ -1,0 +1,32 @@
+{
+  "education": [
+    {
+      "title": "Networking administration and security",
+      "description": "During my final year of studies, I moved to Reims to be with my girlfriend. At the University of Reims, I had the opportunity to choose between two Master's programs: Programming and Network Administration. Eager to broaden my expertise and explore new areas of computer science, I opted for Network Administration, which allowed me to gain a deeper understanding of infrastructure and systems beyond my programming background.",
+      "image": "images/education/master_2.png",
+      "school": "University of Reims Champagne-Ardenne",
+      "tags": ["master degree"]
+    },
+    {
+      "title": "Software architecture and engineering",
+      "description": "Master specialized in software architecture and engineering, I discovered more about design patterns, component programming, distributed architecture, ...",
+      "image": "images/education/master_1.png",
+      "school": "University of Montpellier",
+      "tags": ["master degree"]
+    },
+    {
+      "title": "Computer Science Bachelor",
+      "description": "I discovered old technologies like xslt or unfunny things like Make! But all these things were useful in companies with old projects.",
+      "image": "images/education/bachelor.png",
+      "school": "University of Montpellier",
+      "tags": ["bachelor degree"]
+    },
+    {
+      "title": "Computer Science Associate",
+      "description": "This is my best years as studient. It was my first step in the real life and I could study what I had been passionate about since high school. I learned base of programming, object-oriented programming, design patterns, database, graph structures, ...",
+      "image": "images/education/associate.png",
+      "school": "University of Montpellier",
+      "tags": ["associate degree"]
+    }
+  ]
+}

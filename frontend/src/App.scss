@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+  padding-bottom: 300px;
+  transition: opacity 0.5s ease-in;
+}
+
+section {
+  padding: 50px;
+  padding-bottom: 110px;
+  background-color: var(--main-background-color);
+}
+
+section::before {
+  content: '';
+  display: block;
+  height: 75px;
+  visibility: hidden;
+}

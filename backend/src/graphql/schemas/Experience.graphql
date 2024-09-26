@@ -1,0 +1,8 @@
+type Experience {
+  title: String
+  image: String
+  description: String
+  tags: [String]
+  company: String,
+  technicalSkills: [String]
+}
